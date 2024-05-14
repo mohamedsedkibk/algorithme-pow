@@ -1,0 +1,18 @@
+FUNCTION word (str,i:integer) : STRING
+VAR
+    set_declarations
+BEGIN
+j:=str.length-1-i
+IF (i==j ou i>j ) THEN
+    return "palindrome"
+    
+    IF (str[i]!= str[j]) THEN
+        return "non palindrome"
+
+ELSE
+    return "palindrome" word(str,i+1)
+    ELSE
+
+END_IF
+    
+END

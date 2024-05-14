@@ -1,0 +1,29 @@
+// methode 2
+FUNCTION force(a,b) : integer
+VAR
+    pow:integer:=1
+BEGIN
+   FOR i FROM 1 TO b STEP 1  DO
+  pow=pow*a 
+   END_FOR 
+    RETURN pow ;
+END
+
+ALGORITHM puissance
+VAR
+    set_declarations
+BEGIN
+ write (pow)
+END
+
+// methode 2
+FUNCTION pow(x,y:integer) : integer
+VAR
+    set_declarations
+BEGIN
+    IF (y=1) THEN
+        return x
+    ELSE
+        return x*pow(x,n-1);
+    END_IF
+END

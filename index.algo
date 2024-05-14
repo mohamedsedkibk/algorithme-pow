@@ -1,0 +1,41 @@
+// methode 1
+ALGORITHM factoriel
+VAR
+    n:INTEGER
+    sum:INTEGER
+BEGIN
+sum=1
+    read(n)
+    FOR i FROM n TO 1  STEP step -1 DO
+    sum=sum*i           
+    END_FOR
+END  
+// function methode 2
+FUNCTION function_name(n) : INTEGER
+VAR
+  res:integer:=1
+BEGIN
+    FOR i FROM 1 TO n STEP 1  DO
+        res=res*i
+    END_FOR
+    RETURN res ;
+END
+ALGORITHM facto
+VAR
+    result:integer
+BEGIN
+   result:= write(res)
+END
+//  function methode 3
+FUNCTION function_name(x,y) : integer
+VAR
+    pow:integer:=1
+BEGIN
+    IF (pow==0) THEN
+     RETURN 1
+
+    ELSE
+        set_instructions
+    END_IF
+    RETURN value ;
+END
